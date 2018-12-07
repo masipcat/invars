@@ -17,7 +17,7 @@ setup(
     license="GNU",
     zip_safe=True,
     include_package_data=True,
-    package_data={"": ["*.txt", "*.md"]},
+    package_data={"": ["VERSION", "*.txt", "*.md"]},
     packages=find_packages(),
     install_requires=["click~=7.0.0", "setuptools"],
     extras_require={"test": ["pytest~=4.0.1"]},
