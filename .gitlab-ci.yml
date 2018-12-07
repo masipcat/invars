@@ -23,6 +23,7 @@ deploy_staging:
     - twine upload --repository-url https://test.pypi.org/legacy/ dist/*
   except:
     - master@masipcat/invars
+    - tags
 
 deploy_production:
   stage: deploy
